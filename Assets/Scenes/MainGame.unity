@@ -287,6 +287,7 @@ GameObject:
   - component: {fileID: 146226978}
   - component: {fileID: 146226977}
   - component: {fileID: 146226976}
+  - component: {fileID: 146226979}
   m_Layer: 5
   m_Name: Card (10)
   m_TagString: Untagged
@@ -359,10 +360,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1999277009}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 146226979}
+        m_TargetAssemblyTypeName: CardBehaviour, Assembly-CSharp
+        m_MethodName: ToggleCover
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -409,6 +410,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 146226974}
   m_CullTransparentMesh: 1
+--- !u!114 &146226979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146226974}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54032c0b787fc8540b65dbb23170f267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coverImage: {fileID: 1999277009}
 --- !u!1 &329033789
 GameObject:
   m_ObjectHideFlags: 0
@@ -497,6 +511,7 @@ GameObject:
   - component: {fileID: 379344883}
   - component: {fileID: 379344882}
   - component: {fileID: 379344881}
+  - component: {fileID: 379344884}
   m_Layer: 5
   m_Name: Card (3)
   m_TagString: Untagged
@@ -569,10 +584,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 329033789}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 379344884}
+        m_TargetAssemblyTypeName: CardBehaviour, Assembly-CSharp
+        m_MethodName: ToggleCover
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -619,6 +634,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 379344879}
   m_CullTransparentMesh: 1
+--- !u!114 &379344884
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379344879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54032c0b787fc8540b65dbb23170f267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coverImage: {fileID: 329033789}
 --- !u!1 &463102748
 GameObject:
   m_ObjectHideFlags: 0
@@ -631,6 +659,7 @@ GameObject:
   - component: {fileID: 463102752}
   - component: {fileID: 463102751}
   - component: {fileID: 463102750}
+  - component: {fileID: 463102753}
   m_Layer: 5
   m_Name: Card (6)
   m_TagString: Untagged
@@ -703,10 +732,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 119091971}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 463102753}
+        m_TargetAssemblyTypeName: CardBehaviour, Assembly-CSharp
+        m_MethodName: ToggleCover
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -753,6 +782,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 463102748}
   m_CullTransparentMesh: 1
+--- !u!114 &463102753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 463102748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54032c0b787fc8540b65dbb23170f267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coverImage: {fileID: 119091971}
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -1001,6 +1043,7 @@ GameObject:
   - component: {fileID: 535589120}
   - component: {fileID: 535589119}
   - component: {fileID: 535589118}
+  - component: {fileID: 535589121}
   m_Layer: 5
   m_Name: Card (1)
   m_TagString: Untagged
@@ -1073,10 +1116,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 595316023}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 535589121}
+        m_TargetAssemblyTypeName: CardBehaviour, Assembly-CSharp
+        m_MethodName: ToggleCover
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1123,6 +1166,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 535589116}
   m_CullTransparentMesh: 1
+--- !u!114 &535589121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535589116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54032c0b787fc8540b65dbb23170f267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coverImage: {fileID: 595316023}
 --- !u!1 &541175364
 GameObject:
   m_ObjectHideFlags: 0
@@ -1287,6 +1343,7 @@ GameObject:
   - component: {fileID: 756131024}
   - component: {fileID: 756131023}
   - component: {fileID: 756131022}
+  - component: {fileID: 756131025}
   m_Layer: 5
   m_Name: Card (2)
   m_TagString: Untagged
@@ -1359,10 +1416,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1411783651}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 756131025}
+        m_TargetAssemblyTypeName: CardBehaviour, Assembly-CSharp
+        m_MethodName: ToggleCover
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1409,6 +1466,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 756131020}
   m_CullTransparentMesh: 1
+--- !u!114 &756131025
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756131020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54032c0b787fc8540b65dbb23170f267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coverImage: {fileID: 1411783651}
 --- !u!1 &774264627
 GameObject:
   m_ObjectHideFlags: 0
@@ -1421,6 +1491,7 @@ GameObject:
   - component: {fileID: 774264631}
   - component: {fileID: 774264630}
   - component: {fileID: 774264629}
+  - component: {fileID: 774264632}
   m_Layer: 5
   m_Name: Card (8)
   m_TagString: Untagged
@@ -1493,10 +1564,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 534299673}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 774264632}
+        m_TargetAssemblyTypeName: CardBehaviour, Assembly-CSharp
+        m_MethodName: ToggleCover
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1543,6 +1614,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 774264627}
   m_CullTransparentMesh: 1
+--- !u!114 &774264632
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 774264627}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54032c0b787fc8540b65dbb23170f267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coverImage: {fileID: 534299673}
 --- !u!1 &780720754
 GameObject:
   m_ObjectHideFlags: 0
@@ -1555,6 +1639,7 @@ GameObject:
   - component: {fileID: 780720758}
   - component: {fileID: 780720757}
   - component: {fileID: 780720756}
+  - component: {fileID: 780720759}
   m_Layer: 5
   m_Name: Card (11)
   m_TagString: Untagged
@@ -1627,10 +1712,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1218612923}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 780720759}
+        m_TargetAssemblyTypeName: CardBehaviour, Assembly-CSharp
+        m_MethodName: ToggleCover
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1677,6 +1762,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 780720754}
   m_CullTransparentMesh: 1
+--- !u!114 &780720759
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 780720754}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54032c0b787fc8540b65dbb23170f267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coverImage: {fileID: 1218612923}
 --- !u!1 &811728287
 GameObject:
   m_ObjectHideFlags: 0
@@ -1745,8 +1843,8 @@ Canvas:
   m_GameObject: {fileID: 811728287}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 519420031}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -1790,6 +1888,7 @@ GameObject:
   - component: {fileID: 940023885}
   - component: {fileID: 940023884}
   - component: {fileID: 940023883}
+  - component: {fileID: 940023886}
   m_Layer: 5
   m_Name: Card (5)
   m_TagString: Untagged
@@ -1862,10 +1961,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 541175364}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 940023886}
+        m_TargetAssemblyTypeName: CardBehaviour, Assembly-CSharp
+        m_MethodName: ToggleCover
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1912,6 +2011,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 940023881}
   m_CullTransparentMesh: 1
+--- !u!114 &940023886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940023881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54032c0b787fc8540b65dbb23170f267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coverImage: {fileID: 541175364}
 --- !u!1 &1007662154
 GameObject:
   m_ObjectHideFlags: 0
@@ -1924,6 +2036,7 @@ GameObject:
   - component: {fileID: 1007662158}
   - component: {fileID: 1007662157}
   - component: {fileID: 1007662156}
+  - component: {fileID: 1007662159}
   m_Layer: 5
   m_Name: Card (9)
   m_TagString: Untagged
@@ -1996,10 +2109,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1421656037}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1007662159}
+        m_TargetAssemblyTypeName: CardBehaviour, Assembly-CSharp
+        m_MethodName: ToggleCover
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2046,6 +2159,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1007662154}
   m_CullTransparentMesh: 1
+--- !u!114 &1007662159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1007662154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54032c0b787fc8540b65dbb23170f267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coverImage: {fileID: 1421656037}
 --- !u!1 &1040323127
 GameObject:
   m_ObjectHideFlags: 0
@@ -2058,6 +2184,7 @@ GameObject:
   - component: {fileID: 1040323131}
   - component: {fileID: 1040323130}
   - component: {fileID: 1040323129}
+  - component: {fileID: 1040323132}
   m_Layer: 5
   m_Name: Card (4)
   m_TagString: Untagged
@@ -2130,10 +2257,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1984433505}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1040323132}
+        m_TargetAssemblyTypeName: CardBehaviour, Assembly-CSharp
+        m_MethodName: ToggleCover
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2180,6 +2307,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1040323127}
   m_CullTransparentMesh: 1
+--- !u!114 &1040323132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1040323127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54032c0b787fc8540b65dbb23170f267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coverImage: {fileID: 1984433505}
 --- !u!1 &1218612923
 GameObject:
   m_ObjectHideFlags: 0
@@ -2420,6 +2560,7 @@ GameObject:
   - component: {fileID: 1589169349}
   - component: {fileID: 1589169348}
   - component: {fileID: 1589169347}
+  - component: {fileID: 1589169350}
   m_Layer: 5
   m_Name: Card (7)
   m_TagString: Untagged
@@ -2492,10 +2633,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 525633157}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1589169350}
+        m_TargetAssemblyTypeName: CardBehaviour, Assembly-CSharp
+        m_MethodName: ToggleCover
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2542,6 +2683,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1589169345}
   m_CullTransparentMesh: 1
+--- !u!114 &1589169350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589169345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54032c0b787fc8540b65dbb23170f267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coverImage: {fileID: 525633157}
 --- !u!1 &1806458386
 GameObject:
   m_ObjectHideFlags: 0
@@ -2622,6 +2776,7 @@ GameObject:
   - component: {fileID: 1978556062}
   - component: {fileID: 1978556061}
   - component: {fileID: 1978556060}
+  - component: {fileID: 1978556063}
   m_Layer: 5
   m_Name: Card
   m_TagString: Untagged
@@ -2694,10 +2849,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 76450681}
-        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-        m_MethodName: SetActive
-        m_Mode: 6
+      - m_Target: {fileID: 1978556063}
+        m_TargetAssemblyTypeName: CardBehaviour, Assembly-CSharp
+        m_MethodName: ToggleCover
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2744,6 +2899,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1978556058}
   m_CullTransparentMesh: 1
+--- !u!114 &1978556063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978556058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54032c0b787fc8540b65dbb23170f267, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coverImage: {fileID: 76450681}
 --- !u!1 &1984433505
 GameObject:
   m_ObjectHideFlags: 0
