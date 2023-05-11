@@ -7,19 +7,21 @@ public class CardManager : MonoBehaviour
 {
     [SerializeField] List<CardBehaviour> cards;
     [SerializeField] List<Sprite> sprites;
+    [SerializeField] GameObject winIndicator;
     public CardBehaviour lastSelectedCard;
 
     // Start is called before the first frame update
     void Start()
     {
         RandomCards();
+        winIndicator.SetActive(false);
     }
 
     void RandomCards()
     {
         foreach (CardBehaviour card in cards)
         {
-            int currentSprite = Random.Range(0, sprites.Count-1);
+            int currentSprite = Random.Range(0, sprites.Count);
             card.ChangeImage(sprites[currentSprite]);
             sprites.Remove(sprites[currentSprite]);
         }
@@ -43,6 +45,14 @@ public class CardManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(cards != null && CardBehaviour.matches == (cards.Count/2))
+        {
+            GameWon();
+        }
+    }
+
+    void GameWon()
+    {
+        winIndicator.SetActive(true);
     }
 }

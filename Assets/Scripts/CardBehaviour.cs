@@ -8,13 +8,14 @@ public class CardBehaviour : MonoBehaviour
 {
     [SerializeField] GameObject coverImage;
     public bool found;
-    static public int matches;
+    public static int matches;
     // Start is called before the first frame update
    
     void Start()
     {
         matches = 0;
         found = false;
+        coverImage.SetActive(true);
     }
 
     // Update is called once per frame
