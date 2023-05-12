@@ -31,11 +31,14 @@ public class CardBehaviour : MonoBehaviour
 
     public void CheckMatch(CardBehaviour otherCard, bool result)
     {
-        if(otherCard.GetComponent<Image>().sprite.name == this.GetComponent<Image>().sprite.name)
-            result = true;
-        else if(otherCard.GetComponent<Image>().sprite.name != this.GetComponent<Image>().sprite.name)
-            result = false;
-        StartCoroutine(ResultCheck(otherCard, result));   
+        if (otherCard.gameObject != this.gameObject)
+        {
+            if (otherCard.GetComponent<Image>().sprite.name == this.GetComponent<Image>().sprite.name)
+                result = true;
+            else if (otherCard.GetComponent<Image>().sprite.name != this.GetComponent<Image>().sprite.name)
+                result = false;
+            StartCoroutine(ResultCheck(otherCard, result));
+        }
     }
 
     private IEnumerator ResultCheck(CardBehaviour otherCard, bool result)
