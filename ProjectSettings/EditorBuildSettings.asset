@@ -9,6 +9,12 @@ EditorBuildSettings:
     path: Assets/Scenes/StartScreen.unity
     guid: fea6b30892a41ff48b334692e0008106
   - enabled: 1
-    path: Assets/Scenes/MainGame.unity
+    path: Assets/Scenes/Difficulties/MainGame1.unity
+    guid: 19cfe2d301ce0de48afbf81ba1a625c8
+  - enabled: 1
+    path: Assets/Scenes/Difficulties/MainGame2.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Difficulties/MainGame3.unity
+    guid: ae29fe8ca5cb2f94797a135be6eaa8c4
   m_configObjects: {}
