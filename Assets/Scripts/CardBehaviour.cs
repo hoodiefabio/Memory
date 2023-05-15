@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class CardBehaviour : MonoBehaviour
 {
     [SerializeField] GameObject coverImage;
+    [SerializeField] Animator animator;
     public bool found;
     public static int matches;
     // Start is called before the first frame update
@@ -63,10 +64,10 @@ public class CardBehaviour : MonoBehaviour
         if(coverImage != null && !found)
         {
             if (coverImage.activeSelf == true)
-                coverImage.SetActive(false);
+                animator.Play("CardVisible");
 
             else if (coverImage.activeSelf == false)
-                coverImage.SetActive(true);
+                animator.Play("CardCover");
         }
     }
 }
