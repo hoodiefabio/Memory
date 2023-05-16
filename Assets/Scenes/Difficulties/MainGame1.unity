@@ -1101,6 +1101,7 @@ GameObject:
   - component: {fileID: 1578955590}
   - component: {fileID: 1578955592}
   - component: {fileID: 1578955591}
+  - component: {fileID: 1578955593}
   m_Layer: 5
   m_Name: Winscreen
   m_TagString: Untagged
@@ -1168,6 +1169,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1578955589}
   m_CullTransparentMesh: 1
+--- !u!114 &1578955593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578955589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b0b8d8a08362c646979d2d65c65b2cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  highscoreText: {fileID: 1079269440}
+  highscoreName: Highscore1
 --- !u!1 &1613619563
 GameObject:
   m_ObjectHideFlags: 0
@@ -1323,6 +1338,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 3431aaea737b87247a069b22d501911b, type: 3}
   winIndicator: {fileID: 1578955589}
   timer: {fileID: 205442981}
+  highscoreName: Highscore1
   lastSelectedCard: {fileID: 0}
 --- !u!1001 &1937934496
 PrefabInstance:

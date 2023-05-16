@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 using UnityEngine.UI;
 
 public class CardManager : MonoBehaviour
@@ -9,6 +10,7 @@ public class CardManager : MonoBehaviour
     [SerializeField] List<Sprite> sprites;
     [SerializeField] GameObject winIndicator;
     [SerializeField] Timer timer;
+    [SerializeField] string highscoreName;
     public CardBehaviour lastSelectedCard;
 
     // Start is called before the first frame update
@@ -54,6 +56,10 @@ public class CardManager : MonoBehaviour
 
     void GameWon()
     {
+        if (timer.timeValue < PlayerPrefs.GetFloat(highscoreName, 90))
+        {
+            PlayerPrefs.SetFloat(highscoreName, timer.timeValue);
+        }
         winIndicator.SetActive(true);
         timer.timerIsRunning = false;
     }
