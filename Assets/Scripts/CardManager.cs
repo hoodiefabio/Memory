@@ -8,6 +8,7 @@ public class CardManager : MonoBehaviour
     [SerializeField] List<CardBehaviour> cards;
     [SerializeField] List<Sprite> sprites;
     [SerializeField] GameObject winIndicator;
+    [SerializeField] Timer timer;
     public CardBehaviour lastSelectedCard;
 
     // Start is called before the first frame update
@@ -54,5 +55,6 @@ public class CardManager : MonoBehaviour
     void GameWon()
     {
         winIndicator.SetActive(true);
+        timer.timerIsRunning = false;
     }
 }
