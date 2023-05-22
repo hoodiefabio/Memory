@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class CardManager : MonoBehaviour
 {
     [SerializeField] List<CardBehaviour> cards;
-    [SerializeField] List<Sprite> sprites;
+    [SerializeField] public List<Sprite> sprites;
     [SerializeField] GameObject winIndicator;
     [SerializeField] Timer timer;
     [SerializeField] string highscoreName;
@@ -16,11 +16,10 @@ public class CardManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        RandomCards();
         winIndicator.SetActive(false);
     }
 
-    void RandomCards()
+    public void RandomCards()
     {
         foreach (CardBehaviour card in cards)
         {
