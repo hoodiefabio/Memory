@@ -26,5 +26,6 @@ public class CatagoryManager : MonoBehaviour
 
             }
         }
+        manager.RandomCards();
     }
 }
