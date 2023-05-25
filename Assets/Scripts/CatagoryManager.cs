@@ -12,6 +12,7 @@ public class CatagoryManager : MonoBehaviour
     void Start()
     {
         manager.sprites.Clear();
+        manager.timer.timerIsRunning = false;
     }
 
     public void SetCatogory(string catagory)
@@ -33,5 +34,6 @@ public class CatagoryManager : MonoBehaviour
 
         }
         manager.RandomCards();
+        manager.timer.timerIsRunning = true;
     }
 }

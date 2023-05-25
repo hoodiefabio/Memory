@@ -9,10 +9,6 @@ public class Timer : MonoBehaviour
     public bool timerIsRunning = false;
     public Text timeText;
     
-    void Start()
-    {
-        timerIsRunning = true;
-    }
 
     void Update()
     {

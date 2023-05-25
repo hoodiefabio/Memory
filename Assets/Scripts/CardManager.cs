@@ -9,7 +9,7 @@ public class CardManager : MonoBehaviour
     [SerializeField] List<CardBehaviour> cards;
     [SerializeField] public List<Sprite> sprites;
     [SerializeField] GameObject winIndicator;
-    [SerializeField] Timer timer;
+    [SerializeField] public Timer timer;
     [SerializeField] string highscoreName;
     public CardBehaviour lastSelectedCard;
 
