@@ -440,7 +440,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Highscore:'
+  m_Text: 'Beste tijd:'
 --- !u!222 &67850747
 CanvasRenderer:
   m_ObjectHideFlags: 0

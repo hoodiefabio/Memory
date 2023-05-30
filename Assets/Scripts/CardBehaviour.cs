@@ -43,10 +43,10 @@ public class CardBehaviour : MonoBehaviour
     }
 
     private IEnumerator ResultCheck(CardBehaviour otherCard, bool result)
-    {
-        yield return new WaitForSecondsRealtime(0.5f);
+    { 
         if (result)
         {
+            yield return new WaitForSecondsRealtime(0.5f);
             matches++;
             otherCard.found = true;
             this.found = true;
@@ -54,6 +54,7 @@ public class CardBehaviour : MonoBehaviour
         }
         else if (!result)
         {
+            yield return new WaitForSecondsRealtime(1f);
             otherCard.ToggleCover();
             this.ToggleCover();
         }
