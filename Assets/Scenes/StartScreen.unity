@@ -855,7 +855,7 @@ GameObject:
   - component: {fileID: 1166634036}
   m_Layer: 0
   m_Name: BGM
-  m_TagString: Untagged
+  m_TagString: Music
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1227,7 +1227,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Memory
+  m_Text: Geheugenspel
 --- !u!222 &1506303503
 CanvasRenderer:
   m_ObjectHideFlags: 0
