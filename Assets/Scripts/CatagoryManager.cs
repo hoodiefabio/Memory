@@ -7,6 +7,7 @@ public class CatagoryManager : MonoBehaviour
     [SerializeField] CardManager manager;
     [SerializeField] List<Sprite> colors;
     [SerializeField] List<Sprite> shapes;
+    [SerializeField] List<Sprite> animals;
     public int uniqueCards = 3;
     // Start is called before the first frame update
     void Start()
@@ -21,7 +22,9 @@ public class CatagoryManager : MonoBehaviour
 
         if (catagory == "shapes")
             catagorySprites = shapes;
-        else 
+        else if (catagory == "animals")
+            catagorySprites = animals;
+        else
             catagorySprites = colors;
 
 
