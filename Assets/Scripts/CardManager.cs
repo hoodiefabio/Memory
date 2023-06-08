@@ -7,11 +7,13 @@ using UnityEngine.UI;
 public class CardManager : MonoBehaviour
 {
     [SerializeField] List<CardBehaviour> cards;
-    [SerializeField] public List<Sprite> sprites;
+    [HideInInspector] public List<Sprite> sprites;
     [SerializeField] GameObject winIndicator;
     [SerializeField] public Timer timer;
     [SerializeField] string highscoreName;
-    public CardBehaviour lastSelectedCard;
+    [SerializeField] public AudioSource correctSound;
+    [SerializeField] public AudioSource incorrectSound;
+    [HideInInspector]public CardBehaviour lastSelectedCard;
 
     // Start is called before the first frame update
     void Start()

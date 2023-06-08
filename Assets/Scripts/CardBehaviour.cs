@@ -10,6 +10,7 @@ public class CardBehaviour : MonoBehaviour
     [SerializeField] Animator animator;
     public bool found;
     public static int matches;
+    private CardManager cardManager;
     // Start is called before the first frame update
    
     void Start()
@@ -17,6 +18,7 @@ public class CardBehaviour : MonoBehaviour
         matches = 0;
         found = false;
         coverImage.SetActive(true);
+        cardManager = FindObjectOfType<CardManager>().GetComponent<CardManager>();
     }
 
     // Update is called once per frame
@@ -46,6 +48,7 @@ public class CardBehaviour : MonoBehaviour
     { 
         if (result)
         {
+            cardManager.correctSound.PlayOneShot(cardManager.correctSound.clip);
             yield return new WaitForSecondsRealtime(0.5f);
             matches++;
             otherCard.found = true;
@@ -54,6 +57,7 @@ public class CardBehaviour : MonoBehaviour
         }
         else if (!result)
         {
+            cardManager.incorrectSound.PlayOneShot(cardManager.incorrectSound.clip);
             yield return new WaitForSecondsRealtime(1f);
             otherCard.ToggleCover();
             this.ToggleCover();

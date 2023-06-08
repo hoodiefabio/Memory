@@ -899,20 +899,32 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 36
+    m_FontSize: 40
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 3
     m_MaxSize: 40
-    m_Alignment: 1
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: New TextNew TextNew TextNew TextNew TextNew TextNew TextNew TextNew TextNew
-    TextNew TextNew TextNew TextNew TextNew TextNew TextNew TextNew TextNew TextNew
-    TextNew TextNew Text
+  m_Text: 'Welkom bij het geheugenspel!
+
+
+    In dit spel moet u de kaarten op het
+    scherm paren met een identicale kaart. Als u alle paren gevonden heeft, dan heeft
+    u het spel gewonnen.
+
+
+    U kunt kiezen tussen verschillende moeilijkhiedsniveaus.
+
+    En
+    binnen in die niveaus kunt u ook de thema van de kaarten kiezen.
+
+
+    Veel succes!'
 --- !u!222 &764924556
 CanvasRenderer:
   m_ObjectHideFlags: 0
