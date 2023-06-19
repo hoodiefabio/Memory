@@ -13,12 +13,14 @@ public class CardManager : MonoBehaviour
     [SerializeField] string highscoreName;
     [SerializeField] public AudioSource correctSound;
     [SerializeField] public AudioSource incorrectSound;
-    [HideInInspector]public CardBehaviour lastSelectedCard;
+    [HideInInspector] public CardBehaviour lastSelectedCard;
+    [HideInInspector] public bool newHighscore;
 
     // Start is called before the first frame update
     void Start()
     {
         winIndicator.SetActive(false);
+        newHighscore = false;
     }
 
     public void RandomCards()
@@ -60,6 +62,7 @@ public class CardManager : MonoBehaviour
         if (timer.timeValue < PlayerPrefs.GetFloat(highscoreName, 90))
         {
             PlayerPrefs.SetFloat(highscoreName, timer.timeValue);
+            newHighscore = true; 
         }
         winIndicator.SetActive(true);
         timer.timerIsRunning = false;

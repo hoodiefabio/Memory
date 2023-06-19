@@ -2725,6 +2725,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   highscoreText: {fileID: 1079269440}
   highscoreName: Highscore1
+  confetti: {fileID: 1772333581}
 --- !u!82 &1578955594
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3023,6 +3024,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 2626959071541095522, guid: bb7c50b1c1f710c4ab096233a7448cd5, type: 3}
   m_PrefabInstance: {fileID: 1772333579}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1772333581 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2626959071541095521, guid: bb7c50b1c1f710c4ab096233a7448cd5, type: 3}
+  m_PrefabInstance: {fileID: 1772333579}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1873758222
 GameObject:
   m_ObjectHideFlags: 0
@@ -3092,6 +3098,7 @@ MonoBehaviour:
   correctSound: {fileID: 851137128}
   incorrectSound: {fileID: 2053669095}
   lastSelectedCard: {fileID: 0}
+  newHighscore: 0
 --- !u!1001 &1937934496
 PrefabInstance:
   m_ObjectHideFlags: 0
