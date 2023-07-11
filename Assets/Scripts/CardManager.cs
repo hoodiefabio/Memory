@@ -15,6 +15,7 @@ public class CardManager : MonoBehaviour
     [SerializeField] public AudioSource incorrectSound;
     [HideInInspector] public CardBehaviour lastSelectedCard;
     [HideInInspector] public bool newHighscore;
+    [HideInInspector] public bool checkingResults;
 
     // Start is called before the first frame update
     void Start()

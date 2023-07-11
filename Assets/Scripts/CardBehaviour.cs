@@ -11,6 +11,7 @@ public class CardBehaviour : MonoBehaviour
     public bool found;
     public static int matches;
     private CardManager cardManager;
+    private Button button;
     // Start is called before the first frame update
    
     void Start()
@@ -19,12 +20,17 @@ public class CardBehaviour : MonoBehaviour
         found = false;
         coverImage.SetActive(true);
         cardManager = FindObjectOfType<CardManager>().GetComponent<CardManager>();
+        button = GetComponent<Button>();
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        if (cardManager.checkingResults)
+        {
+            button.interactable = false;
+        }
+        else button.interactable = true;
     }
 
     public void ChangeImage(Sprite sprite)
@@ -45,7 +51,8 @@ public class CardBehaviour : MonoBehaviour
     }
 
     private IEnumerator ResultCheck(CardBehaviour otherCard, bool result)
-    { 
+    {
+        cardManager.checkingResults = true;
         if (result)
         {
             cardManager.correctSound.PlayOneShot(cardManager.correctSound.clip);
@@ -62,11 +69,12 @@ public class CardBehaviour : MonoBehaviour
             otherCard.ToggleCover();
             this.ToggleCover();
         }
+        cardManager.checkingResults = false;
     }
 
     public void ToggleCover()
     {
-        if(coverImage != null && !found)
+        if(coverImage != null && !found )
         {
             if (coverImage.activeSelf == true)
                 animator.Play("CardVisible");
