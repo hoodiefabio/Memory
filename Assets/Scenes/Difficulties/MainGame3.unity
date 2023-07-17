@@ -383,9 +383,17 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 804863910}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 804863910}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectCard
+      objectReference: {fileID: 0}
     - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: SelectCard
@@ -750,9 +758,17 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 804863910}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 804863910}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectCard
+      objectReference: {fileID: 0}
     - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: SelectCard
@@ -891,9 +907,17 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 804863910}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 804863910}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectCard
+      objectReference: {fileID: 0}
     - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: SelectCard
@@ -1623,12 +1647,56 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 804863910}
     - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 360095133}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SelectCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ToggleCover
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CardManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: CardBehaviour, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 360095133}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: CardBehaviour, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6151340977998196287, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_Name
@@ -1764,9 +1832,17 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 804863910}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 804863910}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectCard
+      objectReference: {fileID: 0}
     - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: SelectCard
@@ -2053,9 +2129,17 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 804863910}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 804863910}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectCard
+      objectReference: {fileID: 0}
     - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: SelectCard
@@ -2199,12 +2283,40 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 804863910}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 804863910}
     - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: SelectCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CardManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 553142088}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: CardBehaviour, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6151340977998196287, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_Name
@@ -2492,12 +2604,40 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 804863910}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 804863910}
     - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: SelectCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CardManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 620334094}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: CardBehaviour, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6151340977998196287, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_Name
@@ -2784,12 +2924,56 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 804863910}
     - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 653047942}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: SelectCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: ToggleCover
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CardManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
+      value: CardBehaviour, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 653047942}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: CardBehaviour, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6151340977998196287, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_Name
@@ -3014,9 +3198,17 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 804863910}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 804863910}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectCard
+      objectReference: {fileID: 0}
     - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: SelectCard
@@ -3268,12 +3460,40 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 804863910}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 804863910}
     - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: SelectCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CardManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 829953070}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: CardBehaviour, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6151340977998196287, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_Name
@@ -3414,9 +3634,17 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 804863910}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 804863910}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectCard
+      objectReference: {fileID: 0}
     - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: SelectCard
@@ -3779,12 +4007,40 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 804863910}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 804863910}
     - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: SelectCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CardManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 953737247}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: CardBehaviour, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6151340977998196287, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_Name
@@ -4297,9 +4553,17 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 804863910}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 804863910}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectCard
+      objectReference: {fileID: 0}
     - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: SelectCard
@@ -4453,12 +4717,40 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 804863910}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 804863910}
     - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: SelectCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CardManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 1508187793}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: CardBehaviour, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6151340977998196287, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_Name
@@ -5179,9 +5471,17 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 804863910}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 804863910}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectCard
+      objectReference: {fileID: 0}
     - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: SelectCard
@@ -5330,12 +5630,40 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 804863910}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 804863910}
     - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: SelectCard
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: CardManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgument
+      value: 
+      objectReference: {fileID: 2010527314}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: CardBehaviour, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 6151340977998196287, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_Name
@@ -5476,9 +5804,17 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 804863910}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 804863910}
+    - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SelectCard
+      objectReference: {fileID: 0}
     - target: {fileID: 6151340977998196281, guid: da1fd76a6ac686f47b2d660ac2e96f48, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
       value: SelectCard

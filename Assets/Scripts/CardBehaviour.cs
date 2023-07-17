@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
@@ -12,12 +13,14 @@ public class CardBehaviour : MonoBehaviour
     public static int matches;
     private CardManager cardManager;
     private Button button;
+    public bool selected = false;
     // Start is called before the first frame update
    
     void Start()
     {
         matches = 0;
         found = false;
+        selected = false;
         coverImage.SetActive(true);
         cardManager = FindObjectOfType<CardManager>().GetComponent<CardManager>();
         button = GetComponent<Button>();
@@ -26,11 +29,17 @@ public class CardBehaviour : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (cardManager.checkingResults)
+        if (cardManager.checkingResults || selected)
         {
             button.interactable = false;
         }
         else button.interactable = true;
+
+        if(!cardManager.checkingResults && !found && ! selected)
+        {
+            animator.Play("CardCover");
+        }
+
     }
 
     public void ChangeImage(Sprite sprite)
@@ -74,13 +83,18 @@ public class CardBehaviour : MonoBehaviour
 
     public void ToggleCover()
     {
-        if(coverImage != null && !found )
+        if (coverImage != null && !found )
         {
             if (coverImage.activeSelf == true)
+            {
                 animator.Play("CardVisible");
-
+                button.interactable = false;
+            }
             else if (coverImage.activeSelf == false)
+            {
                 animator.Play("CardCover");
+                button.interactable = true;
+            }            
         }
     }
 }

@@ -36,16 +36,20 @@ public class CardManager : MonoBehaviour
 
     public void SelectCard(CardBehaviour card)
     {
-        if(lastSelectedCard == null && !card.found)
+        card.ToggleCover();
+        if (lastSelectedCard == null && !card.found)
         {
             lastSelectedCard = card;
+            card.selected = true;
         }
         else if (lastSelectedCard != null && !card.found)
         {
             bool correctMatch = true;
             card.CheckMatch(lastSelectedCard, correctMatch);
             correctMatch = false;
-            lastSelectedCard=null;
+            lastSelectedCard.selected = false;
+            card.selected = false;
+            lastSelectedCard =null;
         }
     }
 
