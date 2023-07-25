@@ -73,7 +73,6 @@ public class CardBehaviour : MonoBehaviour
         }
         else if (!result)
         {
-            cardManager.incorrectSound.PlayOneShot(cardManager.incorrectSound.clip);
             yield return new WaitForSecondsRealtime(1f);
             otherCard.ToggleCover();
             this.ToggleCover();

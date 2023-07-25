@@ -64,7 +64,7 @@ public class CardManager : MonoBehaviour
 
     void GameWon()
     {
-        if (timer.timeValue < PlayerPrefs.GetFloat(highscoreName, 90))
+        if (timer.timeValue < PlayerPrefs.GetFloat(highscoreName, 120))
         {
             PlayerPrefs.SetFloat(highscoreName, timer.timeValue);
             newHighscore = true; 
