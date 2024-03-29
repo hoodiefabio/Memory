@@ -24,6 +24,11 @@ public class CardManager : MonoBehaviour
         newHighscore = false;
     }
 
+    void Awake()
+    {
+        Input.multiTouchEnabled = false;
+    }
+
     public void RandomCards()
     {
         foreach (CardBehaviour card in cards)
