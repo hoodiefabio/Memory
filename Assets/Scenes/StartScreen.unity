@@ -988,15 +988,18 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Welkom bij het geheugenspel!
 
+    
 
-    In dit spel moet u de kaarten op het
-    scherm paren met een identieke kaart. Als u alle paren gevonden heeft, dan heeft
-    u het spel gewonnen.
+    In dit spel moet u twee dezelfde
+    kaarten omdraaien. Als u alle paren gevonden heeft, dan heeft u het spel gewonnen.
 
+    
 
-    U kunt kiezen tussen verschillende moeilijkhiedniveaus,
-    binnen in die niveaus kunt u ook de thema van de kaarten kiezen.
+    U
+    kunt kiezen tussen verschillende moeilijkheidniveaus en daarnaast kunt u ook
+    de thema van de kaarten kiezen.
 
+    
 
     Veel succes!'
 --- !u!222 &764924556
